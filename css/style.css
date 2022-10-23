@@ -457,6 +457,7 @@ section {
   background-image: url(../image/Group\ 11759.png);
   background-repeat: no-repeat;
   height: 494px;
+  padding-top: 70px;
 }
 .join .text {
   text-align: center;
@@ -652,6 +653,14 @@ section {
   .reviews .box p {
     font-size: 14px;
   }
+  .statistics .text h3 {
+    font-size: 30px !important;
+    margin-bottom: 0;
+  }
+  .app .app-text h3 {
+    font-size: 33px;
+    margin-bottom: 10px;
+  }
 }
 .shorkaa .flex-box {
   column-gap: 0;
@@ -703,5 +712,23 @@ footer p {
   text-align: center;
   padding-bottom: 0;
   margin-bottom: 0;
-  m
+}
+.up {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  background-color: #0549eb;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+  padding: 7px;
+  border-radius: 4px;
+  font-family: Arial, Tahoma;
+  cursor: pointer;
+  transition: 0.2s;
+  opacity: 0;
+}
+.up.show {
+  opacity: 1;
+  z-index: 200;
 }
